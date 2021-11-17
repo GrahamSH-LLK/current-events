@@ -1,0 +1,88 @@
+name: Current Event
+description: File a bug report
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        #### Name of the news or media article where it was found, name of the article, and author
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Source of the article
+      placeholder: ex. New York Times
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Title of the article
+      placeholder: ex. Russia Censors Internet
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Author of the article
+      placeholder: ex. John Appleseed
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Link of the article
+      placeholder: ex. https://nytimes.com/example_article.html
+    validations:
+      required: true
+
+
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Write a 6-8 sentence summary that includes the main idea of the article
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: accomplish
+    attributes:
+      label: What was this article trying to accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: reaction-opinion
+    attributes:
+      label: What is your reaction to this article? What is your opinion of this situation after reading the article?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Take some notes and come up with talking points for when you need to share
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        #### Notes from _\_\_\_\_\_\_\_
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        #### Notes from _\_\_\_\_\_\_\_
+
+
+
