@@ -73,7 +73,9 @@ body:
     validations:
       required: true
   - type: textarea
+    id: notes_from_classmates 
     attributes:
+      label: Notes from classmates
       value: |
         #### Notes from _________
         - 
