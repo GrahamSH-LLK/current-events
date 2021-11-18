@@ -49,6 +49,12 @@ body:
     validations:
       required: true
   - type: textarea
+    id: audience
+    attributes:
+      label: Who was this article written for? Why do you think this?
+    validations:
+      required: true
+  - type: textarea
     id: accomplish
     attributes:
       label: What was this article trying to accomplish?
@@ -66,23 +72,23 @@ body:
       label: Take some notes and come up with talking points for when you need to share
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     attributes:
       value: |
-        #### Notes from _\_\_\_\_\_\_\_
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        #### Notes from _\_\_\_\_\_\_\_
+        #### Notes from _________
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        #### Notes from _________
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
 
 
 
