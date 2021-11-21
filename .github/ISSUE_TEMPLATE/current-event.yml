@@ -1,5 +1,5 @@
 name: Current Event
-description: File a bug report
+description: Write about a current event
 
 body:
   - type: markdown
