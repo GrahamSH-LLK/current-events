@@ -6,6 +6,27 @@ body:
     attributes:
       value: |
         #### Name of the news or media article where it was found, name of the article, and author
+  
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Check off the one you will be doing
+      options:
+        - "Local: This should be about something going on in Massachusetts" 
+        - "National: This should be about something going on in the United States"
+        - "International: This should be about something going on in another country"
+        - "Politcal: This should be about something going on in the US politcal scene"
+        - "Economic: This should be something going on in the U.S. economy"
+    validations:
+      required: true
+  - type: input
+    id: why
+    attributes:
+      label: Why do you think this?
+      placeholder: ex. New York Times
+    validations:
+      required: true
+
   - type: input
     id: source
     attributes:
