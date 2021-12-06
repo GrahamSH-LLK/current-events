@@ -88,6 +88,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: impact-me
+    attributes:
+      label: How does this topic impact you? Explain!
+    validations:
+      required: true
+
+  - type: textarea
     id: notes
     attributes:
       label: Take some notes and come up with talking points for when you need to share
